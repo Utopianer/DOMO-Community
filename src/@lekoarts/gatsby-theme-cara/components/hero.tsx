@@ -57,7 +57,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   </Mainbuttons>
   <Mainbuttons
   title="Contact Founder"
-  link="mailto:domontheblock@gmail.com">
+  link="mailto:domoontheblock@gmail.com">
   </Mainbuttons>
   </div>
       <Inner>
