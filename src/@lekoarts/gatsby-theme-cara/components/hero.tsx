@@ -52,8 +52,8 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   link="https://etherscan.io/token/0x77ec93780e478637ed777d2fb2dc161048dfe6d8">
   </Mainbuttons>
   <Mainbuttons
-  title="Dashboard"
-  link="https://etherscan.io/token/0x77ec93780e478637ed777d2fb2dc161048dfe6d8">
+  title="Dashboard (coming soon)"
+  link="">
   </Mainbuttons>
   <Mainbuttons
   title="Contact Founder"
