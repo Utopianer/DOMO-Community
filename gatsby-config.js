@@ -12,7 +12,7 @@ module.exports = {
     //siteUrl: `https://cara.lekoarts.de`,
     siteDescription: `Redefining social networks, starting with the community.`,
     siteLanguage: `en`,
-    siteImage: `/banner.jpg`,
+    //siteImage: `/banner.jpg`,
   },
   plugins: [
     {
@@ -23,14 +23,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `DOMO Network`,
+        short_name: `DOMO`,
+        description: `Redefining social networks, starting with the community`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
         display: `standalone`,
-        icons: [
+       /* icons: [
           {
             src: `/android-chrome-192x192.png`,
             sizes: `192x192`,
@@ -41,7 +41,7 @@ module.exports = {
             sizes: `512x512`,
             type: `image/png`,
           },
-        ],
+        ],*/
       },
     },
     `gatsby-plugin-offline`,
