@@ -10,7 +10,7 @@ type ButtonProps = {
 
 const Mainbuttons = ({ link, title, children }: ButtonProps) => (
       <button
-        sx={{ variant: `buttons.toggle`, fontWeight: `semibold`, display: `block`, mx: `auto`, mb: 3 }}
+        sx={{ variant: `buttons.toggle`, fontWeight: `semibold`, mx: `2`, mb: 3, display: `inline-block`}}
         onClick={() => location.href=link}
         type="button"
       >

@@ -41,15 +41,21 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       <SVG icon="hexa" width={8} stroke color="icon_darker" left="80%" top="70%" />
     </Divider>
     <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={offset} factor={factor}>
-  <Mainbuttons
-  title="Etherscan"
-  link="https://etherscan.io/token/0x77ec93780e478637ed777d2fb2dc161048dfe6d8">
-  </Mainbuttons>
-  <Mainbuttons
-  title="Etherscan"
-  link="https://etherscan.io/token/0x77ec93780e478637ed777d2fb2dc161048dfe6d8">
-  </Mainbuttons>
     <Footer />
+    <div sx={{textAlign: `center`}}>
+  <Mainbuttons
+  title="Etherscan"
+  link="https://etherscan.io/token/0x77ec93780e478637ed777d2fb2dc161048dfe6d8">
+  </Mainbuttons>
+  <Mainbuttons
+  title="Uniswap"
+  link="https://etherscan.io/token/0x77ec93780e478637ed777d2fb2dc161048dfe6d8">
+  </Mainbuttons>
+  <Mainbuttons
+  title="Dashboard"
+  link="https://etherscan.io/token/0x77ec93780e478637ed777d2fb2dc161048dfe6d8">
+  </Mainbuttons>
+  </div>
       <Inner>
         <Intro />
       </Inner>
