@@ -9,10 +9,10 @@ module.exports = {
     siteTitle: `DOMO Network`,
     siteTitleAlt: `DOMO Network`,
     siteHeadline: `Welcome to the DOMO Network`,
-    //siteUrl: `https://cara.lekoarts.de`,
+    siteUrl: `https://domo.network`,
     siteDescription: `Redefining social networks, starting with the community.`,
     siteLanguage: `en`,
-    //siteImage: `/banner.jpg`,
+    siteImage: `/banner.jpg`,
   },
   plugins: [
     {
@@ -30,7 +30,7 @@ module.exports = {
         background_color: `#141821`,
         theme_color: `#f6ad55`,
         display: `standalone`,
-       /* icons: [
+        icons: [
           {
             src: `/android-chrome-192x192.png`,
             sizes: `192x192`,
@@ -41,7 +41,7 @@ module.exports = {
             sizes: `512x512`,
             type: `image/png`,
           },
-        ],*/
+        ],
       },
     },
     `gatsby-plugin-offline`,
