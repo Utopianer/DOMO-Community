@@ -9,15 +9,14 @@ const Footer = () => {
   }
 
   return (
-    <Box>
       <button
-        sx={{ variant: `buttonbulbs.toggle`, fontWeight: `semibold`, display: `block`, mx: `auto`, mb: 3 }}
+        sx={{ variant: `buttons.toggle`, fontWeight: `semibold`, display: `block`, mx: `auto`, mb: 3 }}
         onClick={toggleColorMode}
         type="button"
         aria-label="Toggle dark mode"
-        >
-      {isDark ? `Light Mode` : `Dark Mode`}
-      </button> 
+      >
+        {isDark ? `Light` : `Dark`}
+      </button>
       </Box> 
   )
 }
