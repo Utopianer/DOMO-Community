@@ -16,7 +16,8 @@ const Footer = () => {
         type="button"
         aria-label="Toggle dark mode"
         >
-        {isDark ? <img src="https://ipfs.globalupload.io/QmZRhFPawGDMxUp9Nh1gP4aQEhb65EKMEkjmHTmjAUE2FD"></img> : <img src="https://ipfs.globalupload.io/Qmco7EPYPzFbuRdGnHRS3Bh9NV7V3d87rGr5Hpx8U81KJC"></img>}
+/**       {isDark ? <img src="https://ipfs.globalupload.io/QmZRhFPawGDMxUp9Nh1gP4aQEhb65EKMEkjmHTmjAUE2FD"></img> : <img src="https://ipfs.globalupload.io/Qmco7EPYPzFbuRdGnHRS3Bh9NV7V3d87rGr5Hpx8U81KJC"></img>} */
+          {isDark ? <p>Dark Mode</p> : <img src="https://ipfs.globalupload.io/Qmco7EPYPzFbuRdGnHRS3Bh9NV7V3d87rGr5Hpx8U81KJC"></img>}
       </button> 
       </Box> 
   )
