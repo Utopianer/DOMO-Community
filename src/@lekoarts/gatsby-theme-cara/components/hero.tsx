@@ -44,19 +44,19 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
     <Footer />
     <div sx={{textAlign: `center`}}>
   <Mainbuttons
-  title="Etherscan"
-  link="https://etherscan.io/token/0x77ec93780e478637ed777d2fb2dc161048dfe6d8">
+  title="About"
+  link="">
   </Mainbuttons>
   <Mainbuttons
-  title="Uniswap"
-  link="https://etherscan.io/token/0x77ec93780e478637ed777d2fb2dc161048dfe6d8">
+  title="Claim"
+  link="">
   </Mainbuttons>
   <Mainbuttons
   title="Dashboard (coming soon)"
   link="">
   </Mainbuttons>
   <Mainbuttons
-  title="Contact Founder"
+  title="E-Mail DOMO"
   link="mailto:domoontheblock@gmail.com">
   </Mainbuttons>
   </div>
