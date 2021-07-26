@@ -37,9 +37,8 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
     <Content speed={0.4} offset={offset} factor={factor}>
       <Inner>
         <ContactMDX />
-        <a href="https://twitter.com/domo_network" target="_blank"><img sx={{ variant: `social`}} src="https://ipfs.globalupload.io/QmY7Yw4tXq5reKtxD8Kc5jiVdhUTWYDqR5jHe7TZXhSZx7"></img></a>
-        <a href="https://t.me/Domonetwork" target="_blank"><img sx={{ variant: `social`}} src="https://ipfs.globalupload.io/QmUQB4p7JJqebNnJzTTNY1xxcq6dF5TTQKengpXeZf8byh" ></img></a>
-        <a href="https://discord.gg/hT8Bda" target="_blank"><img sx={{ variant: `social`}} src="https://ipfs.globalupload.io/QmfUqsjk6M3T2g6E4sgp6Do7cGPUyJAaxTdtTyaVF8yNub" ></img></a>
+        <a href="https://twitter.com/bigmouthmeta" target="_blank"><img sx={{ variant: `social`}} src="https://upload.wikimedia.org/wikipedia/de/thumb/e/e4/Twitter_Logo_Blue.svg/2298px-Twitter_Logo_Blue.svg.png"></img></a>
+        <a href="https://discord.gg/45hAWVAm8f" target="_blank"><img sx={{ variant: `social`}} src="https://discord.com/assets/cb48d2a8d4991281d7a6a95d2f58195e.svg" ></img></a>
       </Inner>
       <Footer />
     </Content>
